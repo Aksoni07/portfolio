@@ -3,11 +3,11 @@
 </div>
 
 <h1 align="center">
-  Utkarsh Raj
+  Ashish Soni
 </h1>
 
 <p align="center">
-  The first iteration of <a href="https://utkarsh-raj13.netlify.app/" target="_blank">utkarshraj.in</a> built with <a href="https://react.dev/" target="_blank">React</a>, <a href="https://firebase.google.com/" target="_blank">Firebase</a>, <a href="https://vitejs.dev/guide/" target="_blank">Vite</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  The first iteration of <a href="https://Aksoni07.netlify.app/" target="_blank">Aksoni07.in</a> built with <a href="https://react.dev/" target="_blank">React</a>, <a href="https://firebase.google.com/" target="_blank">Firebase</a>, <a href="https://vitejs.dev/guide/" target="_blank">Vite</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 
 ![alt text](image-1.png)
@@ -20,7 +20,7 @@ Keeping my site open source is important to me, but as we all know, _**plagiaris
 
 All I ask is that you acknowledge my work and not present it as your own. Thank you for respecting this request.
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [https://utkarsh-raj13.netlify.app/](https://utkarsh-raj13.netlify.app/). Thanks!
+Yes, you can fork this repo. Please give me proper credit by linking back to [https://Aksoni07.netlify.app/](https://utkarsh-raj13.netlify.app/). Thanks!
 
 ## 🍴 Forking and Cloning Repo
 
