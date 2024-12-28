@@ -1,48 +1,60 @@
-The content provided gives a comprehensive overview of Utkarsh Raj's portfolio website, including how it's built, hosted, and how others can fork and modify the repository. Below are the steps to update the content to adapt it for your profile, **Ashish (AKsoni07)**:
+<div align="center">
+  <img alt="Logo" src="https://utkarsh-raj13.netlify.app/assets/logo-dc4cdf8b.svg" width="50" />
+</div>
 
----
+<h1 align="center">
+  Utkarsh Raj
+</h1>
 
-### ⚙️ Update Instructions
+<p align="center">
+  The first iteration of <a href="https://utkarsh-raj13.netlify.app/" target="_blank">utkarshraj.in</a> built with <a href="https://react.dev/" target="_blank">React</a>, <a href="https://firebase.google.com/" target="_blank">Firebase</a>, <a href="https://vitejs.dev/guide/" target="_blank">Vite</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+</p>
 
-1. **Fork the Repository**  
-   First, fork the repository to your GitHub account. Use the following command to clone it locally:  
-   ```sh
-   git clone https://github.com/AKsoni07/portfolio-updated.git
-   ```
+![alt text](image-1.png)
 
-2. **Modify `src/data.js`**  
-   Navigate to `src/data.js` and update the profile-specific details, such as:  
-   - Your name, **Ashish Kumar Soni**.  
-   - Links to your GitHub (https://github.com/AKsoni07), LinkedIn (https://linkedin.com/in/AshishKumarSoni), and other relevant profiles.
+## 🚨 Forking this repository
 
-3. **Configure Firebase**  
-   Replace Utkarsh's Firebase configuration in `src/firebaseConfig.js` with your own.  
-   - Create a project in the [Firebase Console](https://console.firebase.google.com/).  
-   - Update the configuration object to reflect your Firebase credentials.
+I appreciate the interest many of you have shown in using my code for your own websites. Generally, my answer is **yes, you can use it, with proper attribution**.
 
-4. **Customize Content**  
-   Update other static text, icons, and images (like the logo and header) to personalize the site for your branding.  
-   - Replace the `<img>` logo link with your custom logo.  
-   - Modify the `<h1>` tag to display your name prominently.
+Keeping my site open source is important to me, but as we all know, _**plagiarism is unacceptable**_. It’s disheartening to see my work copied without any credit. I’ve put significant effort into building and designing this version of my website, and I take pride in it.
 
-5. **Run the Project**  
-   Install dependencies and start the development server to preview changes locally:  
-   ```sh
-   npm i  
-   npm run dev  
-   ```
+All I ask is that you acknowledge my work and not present it as your own. Thank you for respecting this request.
 
-6. **Deploy on Netlify**  
-   - Create an account on [Netlify](https://www.netlify.com/).  
-   - Connect your GitHub repo to Netlify for continuous deployment.  
-   - Update the site name and URL as required.
+Yes, you can fork this repo. Please give me proper credit by linking back to [https://utkarsh-raj13.netlify.app/](https://utkarsh-raj13.netlify.app/). Thanks!
 
-7. **Credit Acknowledgment**  
-   Keep the acknowledgment section in the `README.md` to give credit to the original creator. Update the fork-related information to your repository link.
+## 🍴 Forking and Cloning Repo
 
-8. **Preview Live Site**  
-   Share your live portfolio link with others!
+First fork this repo and then clone it to your local system
 
----
+sh
+git clone https://github.com/{your_github_username}/portfolio-updated.git
 
-Let me know if you need help customizing any specific section of the portfolio or integrating features.
+
+## 🛠 Installation & Set Up
+
+1. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+
+   
+sh
+   nvm install
+
+
+2. Install dependencies
+
+   
+sh
+   npm i
+
+
+3. Start the development server
+
+   
+sh
+   npm run dev
+
+
+## ⚙️ Update changes
+
+- Go to the src/data.js and change the data according to your profile
+
+- Setup you own [Firebase](https://console.firebase.google.com/u/0/) in src/firebaseConfig.js
