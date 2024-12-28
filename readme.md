@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://utkarsh-raj13.netlify.app/assets/logo-dc4cdf8b.svg" width="50" />
+  <img alt="Logo" src="https://res.cloudinary.com/dc8qg0nbr/image/upload/v1735127027/image-2_mcjsm2.jpg" width="50" />
 </div>
 
 <h1 align="center">
