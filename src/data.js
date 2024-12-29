@@ -152,7 +152,7 @@ const data = {
     schoolLogo: 'https://res.cloudinary.com/dc8qg0nbr/image/upload/v1735133212/file_zzvssa.webp',
 
     experience: [{
-            heading: 'Octane Services Pvt Ltd',
+            heading: 'Octanet Services Pvt Ltd',
             type: 'Full Stack Intern',
             duration: 'July 2024 - Aug 2024',
             companyLogo: 'https://res.cloudinary.com/dc8qg0nbr/image/upload/v1735129437/Octanet_fvgzh8.jpg',
