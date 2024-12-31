@@ -159,13 +159,13 @@ const data = {
             lowHeading: [],
         },
 
-        {
-            heading: 'Umbrella Protection System Pvt Ltd',
-            type: 'SDE Intern',
-            duration: 'April 2024 - June 2024',
-            companyLogo: 'https://res.cloudinary.com/dc8qg0nbr/image/upload/v1735621939/Umbrella_logo_gm1dti.png',
-            lowHeading: [],
-        },
+        // {
+        //     heading: 'Umbrella Protection System Pvt Ltd',
+        //     type: 'SDE Intern',
+        //     duration: 'April 2024 - June 2024',
+        //     companyLogo: 'https://res.cloudinary.com/dc8qg0nbr/image/upload/v1735621939/Umbrella_logo_gm1dti.png',
+        //     lowHeading: [],
+        // },
         {
             heading: 'Fusion (IIITDM)',
             type: 'Backend Lead',
