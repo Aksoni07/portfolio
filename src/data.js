@@ -160,10 +160,10 @@ const data = {
         },
 
         {
-            heading: 'FastCad Coding',
+            heading: 'Umbrella Protection System Pvt Ltd',
             type: 'SDE Intern',
             duration: 'April 2024 - June 2024',
-            companyLogo: 'https://res.cloudinary.com/dc8qg0nbr/image/upload/v1735461765/Untitled_design_6_byvjmq.png',
+            companyLogo: 'https://res.cloudinary.com/dc8qg0nbr/image/upload/v1735621939/Umbrella_logo_gm1dti.png',
             lowHeading: [],
         },
         {
