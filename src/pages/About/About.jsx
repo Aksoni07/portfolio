@@ -328,7 +328,7 @@ const About = () => {
                 target="_blank"
                 className="handle"
               >
-                {codeforces.handle}
+                {leetcode.handle}
               </a>
               <p className="leetcode-data">{leetcode.totalSolved} Solved</p>
             </div>
