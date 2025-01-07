@@ -1,6 +1,6 @@
 import React from 'react';
 import './Homepage.scss';
-import utkarsh from '../../assets/utkarsh.png';
+// import utkarsh from '../../assets/utkarsh.png';
 import { Navbar, Footer } from '../../components';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -9,7 +9,7 @@ import MovingText from '../../components/MovingText/MovingText';
 import Typewriter from 'typewriter-effect';
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import placeholderutkarsh from '../../assets/placeholderutkarsh.png';
+// import placeholderutkarsh from '../../assets/placeholderutkarsh.png';
 import '../../background.css';
 
 const Homepage = () => {
@@ -31,7 +31,7 @@ const Homepage = () => {
             effect="blur"
             height={250}
             width={250}
-            placeholderSrc={placeholderutkarsh}
+            // placeholderSrc={placeholderutkarsh}
           />
         </div>
 
