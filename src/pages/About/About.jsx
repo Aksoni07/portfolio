@@ -328,7 +328,7 @@ const About = () => {
                 target="_blank"
                 className="handle"
               >
-                {leetcode.handle}
+                {"AshishSoni2027"}
               </a>
               <p className="leetcode-data">{leetcode.totalSolved} Solved</p>
             </div>
