@@ -15,7 +15,7 @@ const SocialHandle = () => {
       <a href="https://leetcode.com/u/AshishSoni2027/" target="_blank">
         <SiLeetcode className="icon" />
       </a>
-      <a href="https://codeforces.com/profile/ashishsoni7195" target="_blank">
+      <a href="https://codeforces.com/profile/hulkk" target="_blank">
         <SiCodeforces className="icon" />
       </a>
       <a href="https://www.codechef.com/users/imposter23" target="_blank">

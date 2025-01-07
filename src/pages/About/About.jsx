@@ -60,7 +60,7 @@ const About = () => {
   const [github, setGitHub] = useState({});
 
   useEffect(() => {
-    fetch('https://codeforces.com/api/user.info?handles=ashishsoni7195')
+    fetch('https://codeforces.com/api/user.info?handles=hulkk')
       .then((response) => response.json())
       .then((json) => {
         let data = json.result[0];
@@ -302,7 +302,7 @@ const About = () => {
             <div className="coding-profile-details">
               <img src={cf} alt="codeforces" />
               <a
-                href="https://codeforces.com/profile/ashishsoni7195"
+                href="https://codeforces.com/profile/hulkk"
                 target="_blank"
                 className="handle"
               >
