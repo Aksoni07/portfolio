@@ -15,6 +15,20 @@
     img {
       height: 50px;
       width: 50px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .company-mark {
+      display: grid;
+      width: 50px;
+      height: 50px;
+      place-items: center;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #b16cea, #fe5f68);
+      color: #fff;
+      font-size: 15px;
+      font-weight: 700;
     }
   }
 
@@ -37,6 +51,34 @@
       line-height: 22px;
     }
 
+    .highlights {
+      display: grid;
+      gap: 7px;
+      margin: 7px 0 3px;
+      padding-left: 18px;
+
+      li {
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+
+    .tech-stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 10px;
+
+      span {
+        padding: 3px 8px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 999px;
+        color: #d9d9df;
+        font-size: 12px;
+        line-height: 17px;
+      }
+    }
+
     p {
       font-size: 14px;
       line-height: 20px;
@@ -53,6 +95,7 @@
         font-size: 14px;
       }
 
+      .highlights li,
       p {
         font-size: 14px;
       }

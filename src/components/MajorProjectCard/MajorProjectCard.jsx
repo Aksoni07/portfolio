@@ -15,30 +15,36 @@ const MajorProjectCard = ({ classNa, item }) => {
         </div>
         <div className="techstack">
           {item.techstackUsed.map((inneritem) => (
-            <span>{inneritem}</span>
+            <span key={inneritem}>{inneritem}</span>
           ))}
         </div>
         <div className="links">
-          <a
-            href={item.githubLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="icon"
-          >
-            <AiOutlineGithub />
-          </a>
-          <a
-            href={item.hostedLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="icon"
-          >
-            <BiLinkExternal />
-          </a>
+          {item.githubLink && (
+            <a
+              href={item.githubLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon"
+              aria-label={`${item.name} source code`}
+            >
+              <AiOutlineGithub />
+            </a>
+          )}
+          {item.hostedLink && (
+            <a
+              href={item.hostedLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon"
+              aria-label={`View ${item.name} live project`}
+            >
+              <BiLinkExternal />
+            </a>
+          )}
         </div>
       </div>
       <div className="image">
-        <img src={item.imageLink} alt="" />
+        <img src={item.imageLink || tempimg} alt={`${item.name} preview`} />
       </div>
     </div>
   );

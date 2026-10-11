@@ -2,7 +2,7 @@ import * as React from 'react';
 import './Experience.scss';
 import data from '../../data';
 import { Navbar, ExpCard, Footer } from '../../components';
-import { motion, transform } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 import {
   VerticalTimeline,
@@ -30,6 +30,7 @@ const Experience = () => {
       <VerticalTimeline>
         {data.experience.map((item) => (
           <VerticalTimelineElement
+            key={`${item.heading}-${item.duration}`}
             contentStyle={{ background: 'transparent' }}
             iconStyle={{
               background:
@@ -43,8 +44,8 @@ const Experience = () => {
       </VerticalTimeline>
 
       <Footer />
-      <div class="area">
-        <ul class="circles">
+      <div className="area">
+        <ul className="circles">
           <li></li>
           <li></li>
           <li></li>

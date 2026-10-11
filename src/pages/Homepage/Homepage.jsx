@@ -1,6 +1,5 @@
 import React from 'react';
 import './Homepage.scss';
-// import utkarsh from '../../assets/utkarsh.png';
 import { Navbar, Footer } from '../../components';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';

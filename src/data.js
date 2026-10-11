@@ -1,12 +1,33 @@
+import cfcLogo from './assets/CFC Logo.jpg';
+import alignAiPreview from './assets/align-ai.jpeg';
+import convoAiPreview from './assets/convo-ai-preview.png';
+import profilePhoto from './assets/dp.png';
+
 const data = {
     name: 'Ashish Soni',
-    imageHome: 'https://res.cloudinary.com/dc8qg0nbr/image/upload/v1735130872/dp_dbosg6.jpg',
-    imageAbout: 'https://res.cloudinary.com/dc8qg0nbr/image/upload/v1735131480/file_jun9zt.jpg',
+    imageHome: profilePhoto,
+    imageAbout: profilePhoto,
     contentBelowName: 'Turning ideas into digital reality',
     majorSkill1: 'Full Stack Web Developer',
     majorSkill2: 'coding enthusiast',
     majorSkill3: 'Competitive Programmer',
     majorProject: [{
+            name: 'AlignAI',
+            projDescription: 'An AI-powered product management platform that turns strategic goals and customer feedback into actionable roadmaps. It uses specialized AI agents to analyze feedback, enhance tasks, answer product questions, and create balanced plans with real-time collaboration and analytics.',
+            techstackUsed: [
+                'React',
+                'TypeScript',
+                'Node.js',
+                'Express',
+                'MongoDB',
+                'Google Vertex AI',
+                'Socket.io',
+                'Tailwind CSS',
+                'React Query',
+            ],
+            hostedLink: 'https://align-ai-two.vercel.app/dashboard',
+            imageLink: alignAiPreview,
+        }, {
             name: 'CodeNova',
             projDescription: 'Social media platform exclusively designed for programmers, where users receive personalized problem recommendations based on their skill ratings and rankings. Users can also engage in stimulating discussions like Stack Overflow, exchanging ideas and knowledge. This platform facilitates private user communication via chat, promoting collaborative learning and networking.',
             techstackUsed: [
@@ -22,8 +43,23 @@ const data = {
                 'Cloudinary',
             ],
             githubLink: 'https://github.com/Aksoni07/CodeRift',
-            hostedLink: 'https://codenova-client.netlify.app/login',
+            hostedLink: 'https://codenova-app.netlify.app/login',
             imageLink: 'http://res.cloudinary.com/df4t1zu7e/image/upload/v1694023728/mawat7wvt0c3bwdacqel.jpg',
+        },
+        {
+            name: 'ConvoAI',
+            projDescription: 'An AI-powered speaking coach for job interviews and group discussions. It provides real-time practice and personalized feedback on fluency and grammar to help users track their communication progress.',
+            techstackUsed: [
+                'Python',
+                'Flask',
+                'Google Gemini',
+                'Prompt Engineering',
+                'Web Speech API',
+                'MongoDB',
+                'Gunicorn',
+            ],
+            hostedLink: 'https://ai-powered-communication-practice-qit9.onrender.com/',
+            imageLink: convoAiPreview,
         },
         {
             name: 'Vault-Mart',
@@ -139,11 +175,11 @@ const data = {
             hostedLink: 'https://github.com/Aksoni07/Movie-Recommendation',
         },
     ],
-    aboutYourself: "passionate about creating beautiful, responsive websites that don’t just look great but deliver exceptional user experiences. With a strong foundation in technology and years of hands-on experience, I specialize in building intuitive, high-performance websites that empower businesses to achieve their goals and connect with their audience. Driven by a love for innovation, I’m always exploring new technologies and refining my skills to craft cutting-edge digital solutions that make a real impact.",
+    aboutYourself: "I’m currently a Software Developer at CoFounder Circle, where I turn ambitious ideas into reliable, AI-powered products. From intelligent workflow engines and real-time experiences to polished web platforms, I enjoy building technology that feels simple, useful, and genuinely human. I work across React, TypeScript, Python, and cloud infrastructure—bringing a competitive programmer’s curiosity and a product builder’s attention to detail to every challenge. When I’m not shipping features, I’m exploring new AI tools, solving algorithmic problems, and looking for the next hard problem worth simplifying.",
     instituteName: 'Indian Institute of Information Technology, Design and Manufacturing, Jabalpur',
-    branch: 'Electronics and Communication Engineering (B.Tech)',
+    branch: 'B.Tech — Electronics and Communication Engineering | CGPA: 7.70/10',
     started: 'Dec 2021',
-    end: 'June 2025',
+    end: 'Aug 2025',
     instituteLogo: 'https://res.cloudinary.com/dc8qg0nbr/image/upload/v1753298547/iiitdmj_logo_orfsjh.jpg',
     schoolName: 'Jawahar Navodaya Vidyalaya Ratibad Bhopal (JNV)',
     stream: 'PCM + Computer Science',
@@ -152,11 +188,50 @@ const data = {
     schoolLogo: 'https://res.cloudinary.com/dc8qg0nbr/image/upload/v1735133212/file_zzvssa.webp',
 
     experience: [{
+            heading: 'CoFounder Circle',
+            type: 'Software Developer · On-site',
+            duration: 'Nov 2025 - Present',
+            companyLogo: cfcLogo,
+            techstack: ['Python', 'FastAPI', 'React', 'TypeScript', 'AWS', 'Docker', 'Redis'],
+            lowHeading: [{
+                    content: 'Built an AI-native startup-roadmap engine with FastAPI, OpenAI orchestration, and real-time market research integrations.',
+                },
+                {
+                    content: 'Designed a recurring subscription and billing system with PostgreSQL and Razorpay for plans, add-on credits, invoicing, and payment reconciliation.',
+                },
+                {
+                    content: 'Developed KindPetCo APIs with JWT and OTP authentication, Redis caching, role-based access control, and Supabase PostgreSQL.',
+                },
+                {
+                    content: 'Delivered real-time pet-walk tracking, emergency alerts, health reminders, and provider discovery workflows.',
+                },
+                {
+                    content: 'Built a custom Shopify D2C storefront for pet products, including product discovery and end-to-end shopping flows integrated with the KindPetCo ecosystem.',
+                },
+                {
+                    content: 'Built automated ROI dashboards with the Meta Ads Graph API, replacing manual reporting and tracking $10K+/month in startup ad spend.',
+                },
+                {
+                    content: 'Containerized services and strengthened production reliability with AWS ELB and CloudWatch monitoring.',
+                },
+            ],
+        },
+        {
             heading: 'Umbrella Protection Systems',
-            type: 'Software Developer Intern',
+            type: 'Software Developer Intern · Remote',
             duration: 'Jan 2025 - June 2025',
             companyLogo: 'https://res.cloudinary.com/dc8qg0nbr/image/upload/v1753298194/umbrlela_vqcgnp.jpg',
-            lowHeading: [],
+            techstack: ['React', 'JavaScript', 'Node.js', 'WebSockets', 'GitHub Actions', 'Jest'],
+            lowHeading: [{
+                    content: 'Built WebSocket-powered stock alerts and automated trade triggers, removing the need for manual monitoring.',
+                },
+                {
+                    content: 'Integrated 15+ market-data and news APIs to support low-latency, real-time trading signals.',
+                },
+                {
+                    content: 'Implemented CI/CD pipelines with GitHub Actions and Jest/RTL test suites, reducing deployment time from 2 hours to 20 minutes.',
+                },
+            ],
         },
 
         {
@@ -242,8 +317,8 @@ const data = {
 
 
     ],
-    emailId: 'ashishsoni7195@gmail.com',
-    phoneNo: '',
+    emailId: 'ashishsoni3981@gmail.com',
+    phoneNo: '+91 9407249894',
     approximateBudget: '$300',
 };
 

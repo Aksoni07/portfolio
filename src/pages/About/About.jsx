@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './About.scss';
 import { Navbar, Footer } from '../../components';
 import { motion } from 'framer-motion';
-import utkarshimg from '../../assets/utkarshimg.png';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import placeholderutkarshimg from '../../assets/placeholderutkarshimg.png';
 
@@ -120,12 +119,12 @@ const About = () => {
             <span style={{ fontStyle: 'italic' }}> {data.majorSkill2} </span>{' '}
             and {data.majorSkill3} {data.aboutYourself}
           </p>
-          <Tilt>
-            {/* <img src={data.imageAbout} alt={data.name} /> */}
+          <Tilt className="about-photo">
             <LazyLoadImage
               src={data.imageAbout}
               alt={data.name}
               PlaceholderSrc={placeholderutkarshimg}
+              className="about-photo__image"
             />
           </Tilt>
         </div>
