@@ -317,7 +317,7 @@ const data = {
 
 
     ],
-    emailId: 'ashishsoni3981@gmail.com',
+    emailId: 'ashishsoni7195@gmail.com',
     phoneNo: '+91 9407249894',
     approximateBudget: '$300',
 };
